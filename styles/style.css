@@ -17,14 +17,14 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding: 0px 20px;
     height: 100px;
     background-color: #4B0082;
     border: 3px solid white;
-    box-sizing: border-box;
 }
 
 .navbar h1, .navbar p {
-    margin: 0 20px;
+    margin: 0 25px;
 }
 
 .titulo{
