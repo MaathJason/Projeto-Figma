@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -21,26 +21,83 @@ body{
     height: 100px;
     background-color: #4B0082;
     border: 3px solid white;
+    position: relative;
+}
+
+.navbar img.logo {
+    height: 90px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .navbar h1, .navbar p {
     margin: 0 25px;
 }
 
-.titulo{
-    display: flex;
+.navbar h1{
+    font-size: 24px;
+}
+
+.titulo {
+    position: absolute;
+    left: 50%;          
+    transform: translateX(-50%); 
+    top: 257px;         
+    width: 335px;
     background-color: white;
     color: black;
-    width: 335px;
     height: 55px;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     border-radius: 10px;
-    margin: 50px auto 0;
 }
+
 
 .titulo h1{
     margin: 0;
     font-size: 60px;
 }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 20px;
+}
+
+.card {
+    background-color: #4B0082;
+    width: 500px;
+    height: 296px;
+    border-radius: 8px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.card img {
+    width: 160px;
+    height: 167.35px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+
+}
+
+.card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: 'Inter';
+}
+.card p {
+    color: #AEA6A6;
+    font-size: 0.9em;
+    line-height: 1.5;
+    text-align: left;
+    font-family: 'Inter';
+}
+
