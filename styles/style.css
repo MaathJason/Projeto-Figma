@@ -303,19 +303,27 @@ body{
 
 .albumscardcontainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    gap: 24px;
 }
 
 .albumcards{
     background-color: #4B0082;
     width: 290px;
     height: 511px;
-    margin-left: 64px;
-    margin-right: 64px;
     border-radius: 8px;
     padding: 24px;
     overflow: hidden;
     border: 1px white solid;
+}
+
+
+#dirt {
+    margin-left: 24px;
+}
+
+#jar {
+    margin-right: 24px;
 }
 
 .conteudoalbum h1, p {
@@ -327,13 +335,16 @@ body{
     font-size: 24px;
     color: white;
     margin-top: 23px;
+    font-weight: bold;
 }
 
 .conteudoalbum p {
-    font-size: 14px;
+    font-size: 16px;
     color: #AEA6A6;
     line-height:130%;
     margin-top: 5px;
+    text-align: left;
+    font-weight: bold;
 }
 
 .albumimage{
