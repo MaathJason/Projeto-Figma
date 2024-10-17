@@ -40,6 +40,15 @@ body{
     font-size: 24px;
 }
 
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: #350359;
+    position: relative;
+    padding: 10px;
+    bottom: 0;
+}
+
 .titulo {
     position: absolute;
     left: 50%;          
@@ -102,15 +111,16 @@ body{
 .card {
     background-color: #4B0082;
     width: 500px;
-    height: auto;
+    height: 296px;
     border-radius: 8px;
     color: white;
     padding: 20px;
-    margin-top: 472px;
+    margin-top: 400px;
     display: flex;
     align-items: flex-start;
     border: 1px solid white;
     box-shadow: 0px 30px 60px -12px black;
+    margin-bottom: 156.01px;
 }
 
 .card img {
@@ -121,7 +131,7 @@ body{
 }
 
 .card h3 {
-    font-size: 1.2em;
+    font-size: 24px;
     text-align: left;
     font-family: 'Inter';
     margin: 0;
@@ -129,10 +139,11 @@ body{
 }
 .card p {
     color: #AEA6A6;
-    font-size: 0.9em;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 140%;
     text-align: left;
     font-family: 'Inter';
+    font-weight: 400;
     margin-top: 14px;
 }
 
@@ -158,8 +169,8 @@ body{
 .bandcard{
     width: 1262px;
     height: 379px;
-    display: flex; /* Para manter a imagem e o conteúdo lado a lado */
-    align-items: flex-start; /* Centraliza verticalmente o conteúdo */
+    display: flex; 
+    align-items: flex-start; 
     justify-content: center;
     background-color: #4B0082;
     color: white;
@@ -195,6 +206,14 @@ body{
     font-family: 'Inter';
 }
 
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
 .button-home{
     width: 69px;
     height: 40px;
@@ -227,6 +246,7 @@ body{
     margin-top: 20px;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 131px;
 }
 
 .integrantes{
@@ -247,6 +267,11 @@ body{
     background-color: #2C2C2C;
 }
 
+.albumsbutton, .integrantesbutton {
+    text-decoration: none;
+    color: white;
+}
+
 .albums{
     width: 118px;
     height: 68px;
@@ -259,4 +284,83 @@ body{
     align-items: center;
     margin-top: 67.01px;
     cursor:pointer;
+}
+
+
+.albumcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.bg {
+    width: 1094px;
+    height: 461px;
+    background-color: #350359;
+    margin-top: 127px;
+    border-radius: 15px;
+    margin-bottom: 110px;
+}
+
+.albumscardcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.albumcards{
+    background-color: #4B0082;
+    width: 290px;
+    height: 511px;
+    margin-left: 64px;
+    margin-right: 64px;
+    border-radius: 8px;
+    padding: 24px;
+    overflow: hidden;
+    border: 1px white solid;
+}
+
+.conteudoalbum h1, p {
+    font-family: 'Inter';
+    overflow: hidden;
+}
+
+.conteudoalbum h1 {
+    font-size: 24px;
+    color: white;
+    margin-top: 23px;
+}
+
+.conteudoalbum p {
+    font-size: 14px;
+    color: #AEA6A6;
+    line-height:130%;
+}
+
+.albumimage{
+    display: block;
+    width: 160px;
+    height: 160px;
+}
+
+
+.botaocontainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botaocontainer a {
+    text-decoration: none;
+}
+
+.botaohomealbum{
+    width: 69px;
+    height: 40px;
+    background-color: #350359;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 30px;
 }
