@@ -91,6 +91,8 @@ body{
     border-radius: 10px;
 }
 
+
+
 .spantitle{
     color: #DAA520;
     -webkit-text-stroke: 1px black;
@@ -375,4 +377,15 @@ body{
     align-items: center;
     text-decoration: none;
     margin-bottom: 30px;
+}
+
+.integrantescontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.integrantescardcontainer{
+    width: 240px;
+    height: 345px;
+    background-color: white;
 }
