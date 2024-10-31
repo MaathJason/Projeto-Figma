@@ -91,6 +91,8 @@ body{
     border-radius: 10px;
 }
 
+
+
 .spantitle{
     color: #DAA520;
     -webkit-text-stroke: 1px black;
@@ -303,15 +305,24 @@ body{
 
 .albumscardcontainer {
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
     gap: 1.5rem;
+=======
+    justify-content: space-evenly;
+    gap: 24px;
+>>>>>>> 0f31833ce22324935318d1e1f24c1a3402ab8c53
 }
 
 .albumcards{
     background-color: #4B0082;
     width: 290px;
+<<<<<<< HEAD
     min-height: 520px;
     text-align: left;
+=======
+    height: 511px;
+>>>>>>> 0f31833ce22324935318d1e1f24c1a3402ab8c53
     border-radius: 8px;
     overflow: hidden;
     padding: 24px;
@@ -322,6 +333,15 @@ body{
     align-items: flex-start;
 }
 
+
+#dirt {
+    margin-left: 24px;
+}
+
+#jar {
+    margin-right: 24px;
+}
+
 .conteudoalbum h1, p {
     font-family: 'Inter';
     overflow: hidden;
@@ -330,14 +350,24 @@ body{
 .conteudoalbum h1 {
     font-size: 24px;
     color: white;
+<<<<<<< HEAD
     margin-top: 17px;
+=======
+    margin-top: 23px;
+    font-weight: bold;
+>>>>>>> 0f31833ce22324935318d1e1f24c1a3402ab8c53
 }
 
 .conteudoalbum p {
-    font-size: 14px;
+    font-size: 16px;
     color: #AEA6A6;
     line-height:130%;
     margin-top: 5px;
+<<<<<<< HEAD
+=======
+    text-align: left;
+    font-weight: bold;
+>>>>>>> 0f31833ce22324935318d1e1f24c1a3402ab8c53
 }
 
 .albumimage{
@@ -369,4 +399,15 @@ body{
     align-items: center;
     text-decoration: none;
     margin-bottom: 30px;
+}
+
+.integrantescontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.integrantescardcontainer{
+    width: 240px;
+    height: 345px;
+    background-color: white;
 }
