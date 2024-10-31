@@ -305,24 +305,15 @@ body{
 
 .albumscardcontainer {
     display: flex;
-<<<<<<< HEAD
     justify-content: center;
     gap: 1.5rem;
-=======
-    justify-content: space-evenly;
-    gap: 24px;
->>>>>>> 0f31833ce22324935318d1e1f24c1a3402ab8c53
 }
 
 .albumcards{
     background-color: #4B0082;
     width: 290px;
-<<<<<<< HEAD
     min-height: 520px;
     text-align: left;
-=======
-    height: 511px;
->>>>>>> 0f31833ce22324935318d1e1f24c1a3402ab8c53
     border-radius: 8px;
     overflow: hidden;
     padding: 24px;
@@ -350,12 +341,7 @@ body{
 .conteudoalbum h1 {
     font-size: 24px;
     color: white;
-<<<<<<< HEAD
     margin-top: 17px;
-=======
-    margin-top: 23px;
-    font-weight: bold;
->>>>>>> 0f31833ce22324935318d1e1f24c1a3402ab8c53
 }
 
 .conteudoalbum p {
@@ -363,11 +349,8 @@ body{
     color: #AEA6A6;
     line-height:130%;
     margin-top: 5px;
-<<<<<<< HEAD
-=======
     text-align: left;
     font-weight: bold;
->>>>>>> 0f31833ce22324935318d1e1f24c1a3402ab8c53
 }
 
 .albumimage{
